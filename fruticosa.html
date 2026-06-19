@@ -32,6 +32,25 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .border:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+.border:hover,
+.bg-light:hover{
+    transform: translateY(-6px);
+    transition: 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.rounded-4{
+    border-radius: 20px !important;
+}
+
+    </style>
 </head>
 
 <body>
@@ -86,7 +105,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="404.html" class="nav-item nav-link">About</a>
                         <a href="activities.html" class="nav-item nav-link">Activities</a>
                         <!-- <a href="project.html" class="nav-item nav-link">Projects</a> -->
                         <!-- <div class="nav-item dropdown">
@@ -109,214 +128,159 @@
         </div>
     </div>
     <!-- Navbar End -->
+<!-- Cordyline Fruticosa Plant Details Start -->
+<div class="container-xxl py-5">
+    <div class="container">
 
-
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center py-5">
-            <h1 class="display-2 text-white mb-4 animated slideInDown">Activities</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-\                    <li class="breadcrumb-item text-primary" aria-current="page">Activities</li>
-                </ol>
-            </nav>
+        <div class="text-center mb-5">
+            <p class="fs-5 fw-medium text-success">Colorful Ornamental Plant</p>
+            <h1 class="display-4">Cordyline Fruticosa</h1>
+            <p class="lead mx-auto" style="max-width: 800px;">
+                Cordyline Fruticosa, commonly known as the Ti Plant, is a stunning ornamental plant
+                admired for its vibrant foliage. Its colorful leaves make it a popular choice for
+                gardens, landscapes, and indoor decoration while contributing to a greener environment.
+            </p>
         </div>
-    </div>
-    <!-- Page Header End -->
 
+        <div class="row g-5 align-items-center">
 
-    <!-- Project Start -->
-    <div class="container-xxl pt-5">
-        <div class="container">
-            <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
-                style="max-width: 500px;">
-               <p class="fs-5 fw-medium text-primary">Campus Activities</p>
-<h4 class="display-8 mb-5">Creating a Greener Future Through Environmental Action</h4>
+            <!-- Plant Image -->
+            <div class="col-lg-6">
+                <img src="img/fruit.jpg"
+                    class="img-fluid rounded-4 shadow-lg w-100"
+                    style="max-height:600px; object-fit:cover;"
+                    alt="Cordyline Fruticosa Plant">
             </div>
-            <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="project-item mb-5">
-                    <div class="position-relative">
-<img class="img-fluid w-100 rounded" src="img/alovera.jpg" alt="Plantation Activity"
-     style="height: 270px; object-fit: cover;">
-                            <div class="project-overlay">
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/alovera.jpg"
-                                data-lightbox="project"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="alovera.html"><i
-                                    class="fa fa-link"></i></a>
+
+            <!-- Details -->
+            <div class="col-lg-6">
+
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <div class="border rounded-4 p-4 h-100 shadow-sm">
+                            <h5>🌿 Scientific Name</h5>
+                            <p class="mb-0">Cordyline fruticosa</p>
                         </div>
                     </div>
-                    <div class="p-4">
-                        <a class="d-block h5" href="">Aloe Vera Plant</a>
-                        <span>Aloe Vera is a medicinal plant that improves air quality and supports a greener environment.</span>
+
+                    <div class="col-md-6">
+                        <div class="border rounded-4 p-4 h-100 shadow-sm">
+                            <h5>🌍 Family</h5>
+                            <p class="mb-0">Asparagaceae</p>
+                        </div>
                     </div>
+
+                    <div class="col-md-6">
+                        <div class="border rounded-4 p-4 h-100 shadow-sm">
+                            <h5>☀ Sunlight</h5>
+                            <p class="mb-0">Partial to Bright Sunlight</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="border rounded-4 p-4 h-100 shadow-sm">
+                            <h5>💧 Watering</h5>
+                            <p class="mb-0">Moderate Water Requirement</p>
+                        </div>
+                    </div>
+
                 </div>
-                <!-- Fig Plant -->
-<div class="project-item mb-5">
-    <div class="position-relative">
-        <img class="img-fluid w-100 rounded" src="img/fig.jpg" alt="Fig Plant"
-            style="height: 270px; object-fit: cover;">
-        <div class="project-overlay">
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/fig.jpg"
-                data-lightbox="project"><i class="fa fa-eye"></i></a>
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="fig.html"><i
-                    class="fa fa-link"></i></a>
-        </div>
-    </div>
-    <div class="p-4">
-        <a class="d-block h5" href="">Fig Plant</a>
-        <span>Fig is a nutritious fruit plant valued for its sweet fruits and health benefits.</span>
-    </div>
-</div>
 
-<!-- Bougainvillea -->
-<div class="project-item mb-5">
-    <div class="position-relative">
-        <img class="img-fluid w-100 rounded" src="img/bog.jpg" alt="Bougainvillea"
-            style="height: 270px; object-fit: cover;">
-        <div class="project-overlay">
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/bog.jpg"
-                data-lightbox="project"><i class="fa fa-eye"></i></a>
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="bougainvillea.html"><i
-                    class="fa fa-link"></i></a>
-        </div>
-    </div>
-    <div class="p-4">
-        <a class="d-block h5" href="">Bougainvillea</a>
-        <span>A vibrant flowering plant that beautifies gardens with colorful blooms.</span>
-    </div>
-</div>
+                <div class="mt-4">
+                    <h3>About Cordyline Fruticosa</h3>
+                    <p>
+                        Cordyline Fruticosa is a tropical evergreen plant famous for its striking
+                        foliage that comes in shades of green, red, pink, purple, and burgundy.
+                        Its colorful appearance makes it a favorite ornamental plant in gardens
+                        and landscapes.
+                    </p>
 
-<!-- Croton Petra -->
-<div class="project-item mb-5">
-    <div class="position-relative">
-        <img class="img-fluid w-100 rounded" src="img/croton.jpg" alt="Croton Petra"
-            style="height: 270px; object-fit: cover;">
-        <div class="project-overlay">
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/croton.jpg"
-                data-lightbox="project"><i class="fa fa-eye"></i></a>
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="croton.html"><i
-                    class="fa fa-link"></i></a>
-        </div>
-    </div>
-    <div class="p-4">
-        <a class="d-block h5" href="">Croton Petra</a>
-        <span>An ornamental plant admired for its colorful and decorative leaves.</span>
-    </div>
-</div>
+                    <p>
+                        This plant is highly valued for its decorative appeal and adaptability.
+                        It thrives in warm climates and can be grown both outdoors and indoors,
+                        adding elegance and freshness to any space.
+                    </p>
+                </div>
 
-<!-- Rose -->
-<div class="project-item mb-5">
-    <div class="position-relative">
-        <img class="img-fluid w-100 rounded" src="img/rose.jpg" alt="Rose Plant"
-            style="height: 270px; object-fit: cover;">
-        <div class="project-overlay">
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/rose.jpg"
-                data-lightbox="project"><i class="fa fa-eye"></i></a>
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="rose.html"><i
-                    class="fa fa-link"></i></a>
-        </div>
-    </div>
-    <div class="p-4">
-        <a class="d-block h5" href="">Rose Plant</a>
-        <span>Known as the queen of flowers, cherished for its beauty and fragrance.</span>
-    </div>
-</div>
-
-<!-- Maruvam -->
-<div class="project-item mb-5">
-    <div class="position-relative">
-        <img class="img-fluid w-100 rounded" src="img/maruvam.jpg" alt="Maruvam Plant"
-            style="height: 270px; object-fit: cover;">
-        <div class="project-overlay">
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/maruvam.jpg"
-                data-lightbox="project"><i class="fa fa-eye"></i></a>
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="maruvam.html"><i
-                    class="fa fa-link"></i></a>
-        </div>
-    </div>
-    <div class="p-4">
-        <a class="d-block h5" href="">Maruvam Plant</a>
-        <span>A fragrant herbal plant used in traditional medicine and home gardens.</span>
-    </div>
-</div>
-
-<!-- Krishna Tulasi -->
-<div class="project-item mb-5">
-    <div class="position-relative">
-        <img class="img-fluid w-100 rounded" src="img/krishna.jpg" alt="Krishna Tulasi"
-            style="height: 270px; object-fit: cover;">
-        <div class="project-overlay">
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/krishna.jpg"
-                data-lightbox="project"><i class="fa fa-eye"></i></a>
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="krishna.html"><i
-                    class="fa fa-link"></i></a>
-        </div>
-    </div>
-    <div class="p-4">
-        <a class="d-block h5" href="">Krishna Tulasi</a>
-        <span>A sacred medicinal herb valued for its spiritual and health benefits.</span>
-    </div>
-</div>
-
-<!-- Guava -->
-<div class="project-item mb-5">
-    <div class="position-relative">
-        <img class="img-fluid w-100 rounded" src="img/guava.jpg" alt="Guava Plant"
-            style="height: 270px; object-fit: cover;">
-        <div class="project-overlay">
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/guava.jpg"
-                data-lightbox="project"><i class="fa fa-eye"></i></a>
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="guava.html"><i
-                    class="fa fa-link"></i></a>
-        </div>
-    </div>
-    <div class="p-4">
-        <a class="d-block h5" href="">Guava Plant</a>
-        <span>A fruit-bearing plant rich in vitamins and essential nutrients.</span>
-    </div>
-</div>
-
-<!-- Ficus Religiosa -->
-<div class="project-item mb-5">
-    <div class="position-relative">
-        <img class="img-fluid w-100 rounded" src="img/ficus.jpg" alt="Ficus Religiosa"
-            style="height: 270px; object-fit: cover;">
-        <div class="project-overlay">
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/ficus.jpg"
-                data-lightbox="project"><i class="fa fa-eye"></i></a>
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="ficus.html"><i
-                    class="fa fa-link"></i></a>
-        </div>
-    </div>
-    <div class="p-4">
-        <a class="d-block h5" href="">Ficus Religiosa</a>
-        <span>A sacred tree known for its ecological and environmental importance.</span>
-    </div>
-</div>
-
-<!-- Cordyline Fruticosa -->
-<div class="project-item mb-5">
-    <div class="position-relative">
-        <img class="img-fluid w-100 rounded" src="img/fruit.jpg" alt="Cordyline Fruticosa"
-            style="height: 270px; object-fit: cover;">
-        <div class="project-overlay">
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="img/fruit.jpg"
-                data-lightbox="project"><i class="fa fa-eye"></i></a>
-            <a class="btn btn-lg-square btn-light rounded-circle m-1" href="fruticosa.html"><i
-                    class="fa fa-link"></i></a>
-        </div>
-    </div>
-    <div class="p-4">
-        <a class="d-block h5" href="">Cordyline Fruticosa</a>
-        <span>A colorful ornamental plant admired for its vibrant foliage and decorative beauty.</span>
-    </div>
-</div>
-          
             </div>
         </div>
+
+        <!-- Benefits -->
+        <div class="row mt-5 g-4">
+
+            <div class="col-lg-4">
+                <div class="bg-light rounded-4 p-4 h-100">
+                    <h4>🎨 Ornamental Benefits</h4>
+                    <ul class="mb-0">
+                        <li>Colorful decorative foliage</li>
+                        <li>Enhances landscape beauty</li>
+                        <li>Ideal for indoor decoration</li>
+                        <li>Creates vibrant surroundings</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bg-light rounded-4 p-4 h-100">
+                    <h4>🌿 Environmental Benefits</h4>
+                    <ul class="mb-0">
+                        <li>Improves green cover</li>
+                        <li>Enhances air quality</li>
+                        <li>Supports eco-friendly landscaping</li>
+                        <li>Promotes healthier surroundings</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="bg-light rounded-4 p-4 h-100">
+                    <h4>🪴 Care Guide</h4>
+                    <ul class="mb-0">
+                        <li>Keep soil moist but well-drained</li>
+                        <li>Provide indirect sunlight</li>
+                        <li>Protect from extreme cold</li>
+                        <li>Prune dry leaves regularly</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Interesting Facts -->
+        <div class="mt-5 p-5 bg-success text-white rounded-4">
+            <h2 class="mb-4">Interesting Facts About Cordyline Fruticosa</h2>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h3>Tropical Beauty</h3>
+                    <p class="mb-0">Native to Southeast Asia and Pacific Islands.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Multi-Colored</h3>
+                    <p class="mb-0">Leaves come in vibrant shades of red, pink, green, and purple.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Landscape Favorite</h3>
+                    <p class="mb-0">Widely used in gardens, resorts, and decorative landscapes.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Environmental Message -->
+        <div class="text-center mt-5">
+            <h2>🌿 Color Nature with Cordyline</h2>
+            <p class="lead">
+                Planting Cordyline Fruticosa enhances the beauty of green spaces,
+                supports environmental sustainability, and creates a vibrant natural atmosphere.
+            </p>
+        </div>
+
     </div>
-    <!-- Project End -->
+</div>
+<!-- Cordyline Fruticosa Plant Details End -->
 
 
 <!-- Footer Start -->
@@ -354,14 +318,15 @@
             </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-4">Quick Links</h4>
             <a class="btn btn-link" href="index.html">Home</a>
             <a class="btn btn-link" href="about.html">About</a>
-            <a class="btn btn-link" href="activities.html">Activities</a>
+           <a class="btn btn-link" href="activities.html">Activities</a>
             <a class="btn btn-link" href="contact.html">Contact Us</a>
             <!-- <a class="btn btn-link" href="#admissions">Admissions</a> -->
         </div>
+
 
         <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-4">Programs Offered</h4>
@@ -397,8 +362,6 @@
         </p>
     </div>
 </div>
-
-
 
 
     <!-- Back to Top -->
